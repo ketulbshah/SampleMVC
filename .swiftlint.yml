@@ -1,0 +1,53 @@
+disabled_rules: # rule identifiers to exclude from running
+    - line_length
+#    - force_cast
+#    - force_try
+#    - large_tuple
+#    - cyclomatic_complexity
+#    - function_body_length
+#    - file_length
+#    - type_body_length
+    - trailing_whitespace
+#
+#    - colon
+#    - leading_whitespace
+    - vertical_whitespace
+#    - operator_whitespace
+#    - return_arrow_whitespace
+    - trailing_newline
+#    - control_statement
+#    - comma
+#    - opening_brace
+#    - variable_name
+    - unused_closure_parameter
+    - unused_optional_binding
+#    - discarded_notification_center_observer
+#    - for_where
+#    - multiple_closures_with_trailing_closure
+#    - empty_enum_arguments
+#    - function_parameter_count
+#    - closure_parameter_position.swiftlint.yml
+#    - syntactic_sugar
+    
+identifier_name:
+    max_length:
+        warning: 45
+        error: 60
+    min_length:
+        warning: 1
+
+#identifier_name:
+#    validates_start_lowercase: false
+#  min_length: # only min_length
+#    error: 4 # only error
+#  excluded: # excluded via string array
+#    - id
+#    - URL
+#    - GlobalAPIKey
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+    - Carthage
+    - Pods
+
+//cyclomatic_complexity:
+//  ignores_case_statements: true
