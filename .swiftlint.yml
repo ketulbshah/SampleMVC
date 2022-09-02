@@ -1,5 +1,6 @@
 disabled_rules: # rule identifiers to exclude from running
     - line_length
+    - comment_spacing
 #    - force_cast
 #    - force_try
 #    - large_tuple
