@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DB60B15528C236E80073279A"
-               BuildableName = "SampleMVC copy.app"
+               BuildableName = "SampleMVC_Production.app"
                BlueprintName = "SampleMVC_Production"
                ReferencedContainer = "container:SampleMVC.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB60B15528C236E80073279A"
-            BuildableName = "SampleMVC copy.app"
+            BuildableName = "SampleMVC_Production.app"
             BlueprintName = "SampleMVC_Production"
             ReferencedContainer = "container:SampleMVC.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB60B15528C236E80073279A"
-            BuildableName = "SampleMVC copy.app"
+            BuildableName = "SampleMVC_Production.app"
             BlueprintName = "SampleMVC_Production"
             ReferencedContainer = "container:SampleMVC.xcodeproj">
          </BuildableReference>
